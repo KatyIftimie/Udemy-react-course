@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
+import Text1 from './test 1/test1.index';
+
+
+// class UserInput extends Component {
+
+// }
+
+
+
+
+
 
 class App extends Component {
   state = {
@@ -59,6 +70,7 @@ class App extends Component {
           changed={this.nameChangedHandler}
           name ={this.state.persons[2].name} 
           age =  {this.state.persons[2].age}/>
+        <Text1 />
       </div>
     );
   }
